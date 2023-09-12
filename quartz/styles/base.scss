@@ -95,8 +95,21 @@ a {
   }
 
   & article {
+    & > h1, h2, h3, h4, h5, h6 {
+      border-bottom: 2px solid var(--gray);
+      padding-bottom: 0.3em;
+    }
+
     & > h1 {
-      font-size: 2rem;
+      font-size: 1.2rem;
+    }
+
+    & > h2 {
+      font-size: 1.1rem;
+    }
+
+    & > h3, h4, h5, h6 {
+      font-size: 1rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -170,7 +183,7 @@ a {
     margin: $topSpacing auto 0 auto;
     @media all and (max-width: $fullPageWidth) {
       width: initial;
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
   }
 
@@ -240,7 +253,7 @@ h6,
 thead {
   font-family: var(--headerFont);
   color: var(--dark);
-  font-weight: revert;
+  font-weight: 600;
   margin-bottom: 0;
 
   article > & > a {
@@ -275,8 +288,8 @@ h6 {
 // typography improvements
 h1 {
   font-size: 1.75rem;
-  margin-top: 2.25rem;
-  margin-bottom: 1rem;
+  margin-top: 1.7rem;
+  margin-bottom: 1.3rem;
 }
 
 h2 {
@@ -431,7 +444,7 @@ hr {
   margin: 2rem auto;
   height: 1px;
   border: none;
-  background-color: var(--lightgray);
+  background-color: var(--gray);
 }
 
 audio,

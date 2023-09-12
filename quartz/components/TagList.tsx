@@ -32,8 +32,9 @@ TagList.css = `
   padding-left: 0;
   gap: 0.4rem;
   margin: 1rem 0;
+  text-transform: uppercase;
 }
-  
+
 .tags > li {
   display: inline-block;
   white-space: nowrap;

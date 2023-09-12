@@ -13,10 +13,10 @@ export default ((opts?: Options) => {
     return (
       <footer>
         <hr />
-        <p>
-          Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
-        </p>
         <ul>
+          <li>
+            <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>
+          </li>
           {Object.entries(links).map(([text, link]) => (
             <li>
               <a href={link}>{text}</a>
