@@ -1,10 +1,10 @@
-name: Update submodules
+name: Update content
 
 on:
   workflow_dispatch: ~
   repository_dispatch:
     types:
-      - site-update
+      - content-update
 
 permissions:
   contents: write
