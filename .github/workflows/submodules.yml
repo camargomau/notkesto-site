@@ -22,5 +22,5 @@ jobs:
         run: git submodule update --init --remote
       - name: Commit submodule updates
         run: |
-          git commit -am "Automatic submodule update"
+          git commit -am "Automatic content update"
           git push
