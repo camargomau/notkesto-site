@@ -5,7 +5,7 @@ on:
     branches:
       - v4
   workflow_run:
-    workflows: [submodules]
+    workflows: [Update content]
     types:
       - completed
 
