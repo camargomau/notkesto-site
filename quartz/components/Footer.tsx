@@ -14,14 +14,16 @@ export default ((opts?: Options) => {
       <footer>
         <hr />
         <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
           <li>
-            <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>
+            <em>Luis Mauricio Camargo</em>
           </li>
+        </ul>
+        <ul style="margin-top: 0.5em">
+          {Object.entries(links).map(([text, link]) => (
+          <li>
+            <a href={link}>{text}</a>
+          </li>
+          ))}
         </ul>
       </footer>
     )
