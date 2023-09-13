@@ -16,19 +16,19 @@ export default (() => {
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Laptop/Color/laptop_color.svg"></img>
-            <a href="https://psycake.github.io/notes-quartz/">MAC</a>
+            <a href="https://notes.psycake.subspace.club/Sciujo/MAC/MAC">MAC</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Color/brain_color.svg"></img>
-            <a href="https://psycake.github.io/notes-quartz/">Learn</a>
+            <a href="https://notes.psycake.subspace.club/Sciujo/Sciujo">Learn</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Triangular%20ruler/Color/triangular_ruler_color.svg"></img>
-            <a href="https://psycake.github.io/notes-quartz/">Maths</a>
+            <a href="https://notes.psycake.subspace.club/Sciujo/Mathematics">Maths</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Parrot/Color/parrot_color.svg"></img>
-            <a href="https://psycake.github.io/notes-quartz/">Langs</a>
+            <a href="https://notes.psycake.subspace.club/Lingvujo/Lingvujo">Langs</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bust%20in%20silhouette/Color/bust_in_silhouette_color.svg"></img>
