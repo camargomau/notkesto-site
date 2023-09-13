@@ -22,7 +22,7 @@ header {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   #links-header > * {
     width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
   }
