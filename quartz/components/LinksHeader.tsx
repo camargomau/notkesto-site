@@ -16,19 +16,19 @@ export default (() => {
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Laptop/Color/laptop_color.svg"></img>
-            <a href="https://notes.psycake.subspace.club/Sciujo/MAC/MAC">MAC</a>
+            <a href="/Sciujo/MAC/MAC">MAC</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Color/brain_color.svg"></img>
-            <a href="https://notes.psycake.subspace.club/Sciujo/Sciujo">Learn</a>
+            <a href="/Sciujo/Sciujo">Learn</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Triangular%20ruler/Color/triangular_ruler_color.svg"></img>
-            <a href="https://notes.psycake.subspace.club/Sciujo/Mathematics">Maths</a>
+            <a href="/Sciujo/Mathematics">Maths</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Parrot/Color/parrot_color.svg"></img>
-            <a href="https://notes.psycake.subspace.club/Lingvujo/Lingvujo">Langs</a>
+            <a href="/Lingvujo/Lingvujo">Langs</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bust%20in%20silhouette/Color/bust_in_silhouette_color.svg"></img>
