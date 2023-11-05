@@ -1,7 +1,6 @@
-@use "./custom.scss";
+@use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
-@use "./variables.scss" as *;
 
 html {
   scroll-behavior: smooth;
@@ -95,21 +94,10 @@ a {
   }
 
   & article {
-    & > h1, h2, h3, h4, h5, h6 {
-      border-bottom: 2px solid var(--gray);
-      padding-bottom: 0.3em;
-    }
+    position: relative;
 
     & > h1 {
-      font-size: 1.2rem;
-    }
-
-    & > h2 {
-      font-size: 1.1rem;
-    }
-
-    & > h3, h4, h5, h6 {
-      font-size: 1rem;
+      font-size: 2rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -183,7 +171,7 @@ a {
     margin: $topSpacing auto 0 auto;
     @media all and (max-width: $fullPageWidth) {
       width: initial;
-      margin-top: 1rem;
+      margin-top: 2rem;
     }
   }
 
@@ -253,7 +241,7 @@ h6,
 thead {
   font-family: var(--headerFont);
   color: var(--dark);
-  font-weight: 600;
+  font-weight: revert;
   margin-bottom: 0;
 
   article > & > a {
@@ -288,8 +276,8 @@ h6 {
 // typography improvements
 h1 {
   font-size: 1.75rem;
-  margin-top: 1.7rem;
-  margin-bottom: 1.3rem;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -444,7 +432,7 @@ hr {
   margin: 2rem auto;
   height: 1px;
   border: none;
-  background-color: var(--gray);
+  background-color: var(--lightgray);
 }
 
 audio,
@@ -459,7 +447,7 @@ video {
 
 ul.overflow,
 ol.overflow {
-  height: 300px;
+  max-height: 400;
   overflow-y: auto;
 
   // clearfix
@@ -467,7 +455,7 @@ ol.overflow {
   clear: both;
 
   & > li:last-of-type {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   &:after {
@@ -481,5 +469,11 @@ ol.overflow {
     opacity: 1;
     transition: opacity 0.3s ease;
     background: linear-gradient(transparent 0px, var(--light));
+  }
+}
+
+.transclude {
+  ul {
+    padding-left: 1rem;
   }
 }
