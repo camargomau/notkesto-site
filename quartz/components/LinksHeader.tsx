@@ -32,7 +32,7 @@ export default (() => {
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Laptop/Color/laptop_color.svg"></img>
-            <a href="/Sciujo/Computing/Computing">Comp</a>
+            <a href="/Sciujo/Computing">Comp</a>
           </span>
         </div>
       <hr style="background-color: var(--darkgray); border-top: 1px var(--darkgray) solid; margin-top: 1.3rem"></hr>
