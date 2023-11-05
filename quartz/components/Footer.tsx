@@ -15,7 +15,9 @@ export default ((opts?: Options) => {
         <hr />
         <ul>
           <li>
-            <em>Luis Mauricio Camargo</em>
+            <em>
+              <a href="https://camargomau.com">Mau Camargo</a> © 2023
+            </em>
           </li>
         </ul>
         <ul style="margin-top: 0.5em">
