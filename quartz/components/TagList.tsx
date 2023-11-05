@@ -34,6 +34,7 @@ TagList.css = `
   margin: 1rem 0;
   flex-wrap: wrap;
   justify-self: end;
+  text-transform: uppercase;
 }
 
 .section-li > .section > .tags {
