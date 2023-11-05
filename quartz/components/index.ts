@@ -9,6 +9,7 @@ import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
+import Explorer from "./Explorer"
 import TagList from "./TagList"
 import Graph from "./Graph"
 import Backlinks from "./Backlinks"
@@ -17,6 +18,7 @@ import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
+import Breadcrumbs from "./Breadcrumbs"
 import LinksHeader from "./LinksHeader"
 
 export {
@@ -30,6 +32,7 @@ export {
   ContentMeta,
   Spacer,
   TableOfContents,
+  Explorer,
   TagList,
   Graph,
   Backlinks,
@@ -39,5 +42,6 @@ export {
   MobileOnly,
   RecentNotes,
   NotFound,
-  LinksHeader,
+  Breadcrumbs,
+  LinksHeader
 }

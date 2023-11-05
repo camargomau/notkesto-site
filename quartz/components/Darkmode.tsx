@@ -6,10 +6,8 @@ import styles from "./styles/darkmode.scss"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 function Darkmode({ displayClass }: QuartzComponentProps) {
-  const className = displayClass ? `darkmode ${displayClass}` : "darkmode"
-
   return (
-    <div class={className}>
+    <div class={`darkmode ${displayClass ?? ""}`}>
       <input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex={-1} />
       <label id="toggle-label-light" for="darkmode-toggle" tabIndex={-1}>
         <svg
