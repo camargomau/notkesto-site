@@ -17,12 +17,34 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
 }
 
 export function formatDate(d: Date): string {
-  return d.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "2-digit",
-  })
+  const monthNames = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
+  const day = d.getDate();
+  const daySuffix = getDaySuffix(day);
+  const formattedDate = `${monthNames[d.getMonth()]} ${day}${daySuffix} ${d.getFullYear()}`;
+  return formattedDate;
 }
+
+function getDaySuffix(day: number): string {
+  if (day >= 11 && day <= 13) {
+    return "th";
+  }
+  switch (day % 10) {
+    case 1:
+      return "st";
+    case 2:
+      return "nd";
+    case 3:
+      return "rd";
+    default:
+      return "th";
+  }
+}
+//   return d.toLocaleDateString("en-US", {
+//     year: "numeric",
+//     month: "short",
+//     day: "numeric",
+//   })
+// }
 
 export function Date({ date }: Props) {
   return <>{formatDate(date)}</>
