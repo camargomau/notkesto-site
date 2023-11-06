@@ -71,6 +71,10 @@ a.tag-link {
   & > ul.recent-ul > li {
     margin: 0;
   }
+
+  & .tag-link {
+    display: none;
+  }
 }
 
 /* Others */
