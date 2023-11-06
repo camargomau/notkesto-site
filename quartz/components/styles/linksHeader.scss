@@ -28,7 +28,7 @@ header {
   }
 }
 
-@media (max-width: $pageWidth) {
+@media (max-width: $mobileBreakpoint) {
   #links-header > * {
     width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
   }
