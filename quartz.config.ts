@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     },
     baseUrl: "camargomau.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     theme: {
       typography: {
         header: "Inter",
