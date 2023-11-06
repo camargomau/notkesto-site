@@ -6,7 +6,17 @@
 }
 
 .article-title {
+  margin-top: 0.7em;
   margin-bottom: 0.25em;
+}
+
+.breadcrumb-container {
+  font-size: 0.8em;
+}
+
+.breadcrumb-container a {
+  color: var(--darkgray);
+  text-decoration: underline;
 }
 
 .page {
