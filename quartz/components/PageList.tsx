@@ -8,7 +8,7 @@ export function byDateAndAlphabetical(
   cfg: GlobalConfiguration,
 ): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
   return (f1, f2) => {
-    if (f1.dates && f2.dates) {
+    if (f1.dates !== undefined && f2.dates !== undefined) {
       // sort descending
       return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
     } else if (f1.dates && !f2.dates) {

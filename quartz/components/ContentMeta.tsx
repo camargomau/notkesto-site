@@ -6,15 +6,21 @@ export default (() => {
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
     const text = fileData.text
     if (text) {
-      const segments: string[] = []
-      // const { text: timeTaken, words: _words } = readingTime(text)
+      let usedDate = getDate(cfg, fileData)
 
-      if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!))
+      if (usedDate?.getTime() != 0) {
+        const segments: string[] = []
+        // const { text: timeTaken, words: _words } = readingTime(text)
+
+        if (fileData.dates) {
+          segments.push(formatDate(getDate(cfg, fileData)!))
+        }
+
+        // segments.push(timeTaken)
+        return <p class={`content-meta ${displayClass ?? ""}`}>Created on {segments.join(", ")}</p>
+      } else {
+        return null
       }
-
-      // segments.push(timeTaken)
-      return <p class={`content-meta ${displayClass ?? ""}`}>Created on {segments.join(", ")}</p>
     } else {
       return null
     }

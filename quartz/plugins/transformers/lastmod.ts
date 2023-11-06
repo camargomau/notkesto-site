@@ -23,7 +23,7 @@ function coerceDate(fp: string, d: any): Date {
     )
   }
 
-  return invalidDate ? new Date() : dt
+  return invalidDate ? new Date(0) : dt
 }
 
 type MaybeDate = undefined | string | number
