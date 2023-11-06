@@ -1,3 +1,5 @@
+@use "../../styles/variables.scss" as *;
+
 header {
   display: block;
   margin-top: 1rem;
@@ -26,7 +28,7 @@ header {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: $pageWidth) {
   #links-header > * {
     width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
   }
