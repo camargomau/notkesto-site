@@ -1,0 +1,6 @@
+[submodule "content/Sciujo"]
+	path = content/Sciujo
+	url = https://github.com/camargomau/sciujo
+[submodule "content/Lingvujo"]
+	path = content/Lingvujo
+	url = https://github.com/camargomau/lingvujo
